@@ -4,4 +4,6 @@
  * @returns {Object}
  */
 function clone(obj) {
+    var newobj = Object.assign({} , obj);
+
 }
