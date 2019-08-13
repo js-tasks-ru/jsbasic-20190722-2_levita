@@ -11,4 +11,5 @@ function getMinMax(str) {
         'max': Math.max.apply(null, onlyNumbers)
 
     };
+    return answer
 }
