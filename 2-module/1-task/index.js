@@ -4,6 +4,7 @@
  * @returns {Object}
  */
 function clone(obj) {
-    var newobj = Object.assign({} , obj);
+    return another =
+        JSON.parse(JSON.stringify(obj));
 
 }
