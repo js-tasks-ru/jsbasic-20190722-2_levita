@@ -4,4 +4,7 @@
  * @returns {Object}
  */
 function clone(obj) {
+    return another =
+        JSON.parse(JSON.stringify(obj));
+
 }
